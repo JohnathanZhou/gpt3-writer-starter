@@ -3,7 +3,6 @@ require('dotenv').config();
 
 
 const configuration = new Configuration({
-//   apiKey: "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",
     apiKey: process.env.OPENAI_API_KEY,
 });
 
